@@ -127,7 +127,7 @@ const DATA = {
     ],
     items: [
       {
-        slug: "aan-my-id",
+         slug: "aan-my-id",
         github_raw: "aan-HTML/portofolio_main",
         title: "aan.my.id",
         desc: {
@@ -140,8 +140,8 @@ const DATA = {
         category: "Proyek Pribadi",
         featured: true,
         links: [
-          { label: "Live", url: "#" },
-          { label: "GitHub", url: "#" }
+          { label: "Live", url: "https://aan.my.id" },
+          { label: "GitHub", url: "https://github.com/aan-HTML/portofolio_main" }
         ]
       },
       {
@@ -158,7 +158,7 @@ const DATA = {
         category: "Freelance",
         featured: false,
         links: [
-          { label: "Live", url: "#" }
+          { label: "Live", url: "https://prototypemain.vercel.app" }
         ],
         detail: {
           id: `
@@ -185,8 +185,7 @@ const DATA = {
           <ul>
             <li><strong>Figma</strong> — untuk UI/UX design dan prototyping</li>
           </ul>
-
-          <h2>Fitur Desain</h2>
+         <h2>Fitur Desain</h2>
           <ul>
             <li>🏫 Hero section dengan visual sekolah yang kuat</li>
             <li>🧭 Navigasi jelas (Beranda, Profil, Program, Fasilitas, Kontak)</li>
@@ -768,191 +767,48 @@ const DATA = {
   achievements: [
     {
       id: "ach-1",
-      code: "81P25Y57YPOY",
-      title: "Belajar Pemrograman Java",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "Backend",
-      date: { id: "Januari 18, 2026", en: "January 18, 2026" },
-      image: "img/sertifikat/java.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/81P25Y57YPOY"
-    },
-    {
-      id: "ach-2",
-      code: "L4PQ20QDOZO1",
-      title: "Belajar Dasar Pemrograman JavaScript",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "Frontend",
-      date: { id: "Januari 17, 2026", en: "January 17, 2026" },
-      image: "img/sertifikat/belajar-javascript.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/L4PQ20QDOZO1"
-    },
-    {
-      id: "ach-3",
-      code: "72ZDKLYNVPYW",
-      title: "Dasar Pemrograman Web",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "Frontend",
-      date: { id: "Januari 17, 2026", en: "January 17, 2026" },
-      image: "img/sertifikat/dasar-pemrograman-web.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/72ZDKLYNVPYW"
-    },
-    {
-      id: "ach-4",
-      code: "L4PQ2050OZO1",
-      title: "Belajar Front-End Web Development",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "Frontend",
-      date: { id: "Januari 17, 2026", en: "January 17, 2026" },
-      image: "img/sertifikat/fornt-end.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/L4PQ2050OZO1"
-    },
-    {
-      id: "ach-5",
-      code: "JLX156RL5Z72",
-      title: "Belajar Dasar AI",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "AI",
-      date: { id: "Januari 11, 2026", en: "January 11, 2026" },
-      image: "img/sertifikat/belajar dasar AI.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/JLX156RL5Z72"
-    },
-    {
-      id: "ach-6",
-      code: "1RXYQ971QZVM",
-      title: "Introduction to Financial Literacy",
-      org: "Online Course",
-      type: "Course",
-      category: "Bisnis",
-      date: { id: "Januari 11, 2026", en: "January 11, 2026" },
-      image: "img/sertifikat/introduction-to-financial-literacy.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/1RXYQ971QZVM"
-    },
-    {
-      id: "ach-7",
-      code: "MEPJ2129LP3V",
-      title: "Prinsip Pemrograman SOLID",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "Backend",
-      date: { id: "Januari 18, 2026", en: "January 18, 2026" },
-      image: "img/sertifikat/prinsip-pemrograman.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/MEPJ2129LP3V"
-    },
-    {
-      id: "ach-8",
-      code: "JLX15O2DNZ72",
-      title: "Pemrograman dengan C",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "Backend",
-      date: { id: "Jan 24, 2026", en: "Jan 24, 2026" },
-      image: "img/sertifikat/pemrograman-dengan-C.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/JLX15O2DNZ72"
-    },
-    {
-      id: "ach-9",
-      code: "JLX15O2DNZ72",
-      title: "Penerapan Data Scince",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "Data",
-      date: { id: "Maret 07, 2026", en: "March 07, 2026" },
-      image: "img/sertifikat/penerapan-data-scince.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/N9ZON4JQRXG5"
-    },
-    {
-      id: "ach10",
-      code: "mqnmywh2w27b",
-      title: "Claude Code in Action",
-      org: "Anthropic Skilljar",
-      type: "Course",
-      category: "AI",
-      date: { id: "April 21, 2026", en: "April 21, 2026" },
-      image: "img/sertifikat/anthropic.webp",
-      credentialUrl: "https://verify.skilljar.com/c/mqnmywh2w27b"
-    },
-    {
-      id: "ach11",
-      code: "ecb83075-b014-4cf2-87f6-370030b484be",
-      title: "Introduction to Cybersecurity",
-      org: "Cisco Networking Academy",
-      type: "Course",
-      category: "Cybersecurity",
-      date: {id: "April 26, 2026", en: "April 26, 2026"},
-      image: "img/sertifikat/introduction-to-cybersecurity.webp",
-      credentialUrl: "https://www.credly.com/badges/ecb83075-b014-4cf2-87f6-370030b484be/public_url"
-    },
-    {
-      id: "ach12",
-      code: "53XE1139RZRN",
-      title: "Cloud & Gen Ai AWS",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "Cloud",
-      date: {id: "Mei 14, 2026", en: "May 14, 2026"},
-      image: "img/sertifikat/dasar-cloud-aws.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/53XE1139RZRN"
-    },
-    {
-      id: "ach13",
-      code: "L4PQ99WVQPO1",
-      title: "Spec-Driven Development Dengan Kiro",
-      org: "Dicoding Indonesia",
-      type: "Course",
-      category: "AI",
-      date: {id: "Mei 14, 2026", en: "May 14, 2026"},
-      image: "img/sertifikat/vibe-coding-kiro.webp",
-      credentialUrl: "https://www.dicoding.com/certificates/L4PQ99WVQPO1"
-    },
-    {
-      id: "ach14",
-      code: "IDN-1778987614-180-77089",
-      title: "Jaringan Komputer Dasar",
-      org: "ID-Networkers",
-      type: "Course",
-      category: "Networking",
-      date: {id: "Mei 17, 2026", en: "May 17, 2026"},
-      image: "img/sertifikat/dasar-jaringan.webp",
-      credentialUrl: "https://lms.idn.id/cert-verification/"
-    },
-    {
-      id: "ach15",
-      code: "IDN-1778977018-13888-77089",
-      title: "Cyber Security Dasar",
-      org: "ID-Networkers",
-      type: "Course",
-      category: "Cybersecurity",
-      date: {id: "Mei 17, 2026", en: "May 17, 2026"},
-      image: "img/sertifikat/cyber-security-id-networkers.webp",
-      credentialUrl: "https://lms.idn.id/cert-verification/"
-    },
-    {
-      id: "ach16",
-      code: "21212087840-7951/DTA/BLSDM.Komdigi/2026",
-      title: "Fundamental of Associate Network Administrator",
-      org: "Digitalent & Komdigi",
-      type: "Certification",
-      category: "Networking",
-      date: {id: "Mei 22, 2026", en: "May 22, 2026"},
-      image: "img/sertifikat/fundamental_of-associate_network_administrator.webp",
+      code: "#",
+      title: "#",
+      org: "#",
+      type: "#",
+      category: "#",
+      date: { id: "#", en: "#" },
+      image: "#",
       credentialUrl: "#"
     },
     {
-      id: "ach17",
-      code: "21212088840-2000/DTA/BLSDM.Komdigi/2026",
-      title: "Intermediate Associate Network Administrator",
-      org: "Digitalent & Komdigi",
-      type: "Certification",
-      category: "Networking",
-      date: {id: "Mei 21, 2026", en: "May 21, 2026"},
-      image: "img/sertifikat/intermediate_associate_network_administrator.webp",
+      id: "ach-1",
+      code: "#",
+      title: "#",
+      org: "#",
+      type: "#",
+      category: "#",
+      date: { id: "#", en: "#" },
+      image: "#",
       credentialUrl: "#"
-    }
+    },
+    {
+      id: "ach-1",
+      code: "#",
+      title: "#",
+      org: "#",
+      type: "#",
+      category: "#",
+      date: { id: "#", en: "#" },
+      image: "#",
+      credentialUrl: "#"
+    },
+        {
+      id: "ach-1",
+      code: "#",
+      title: "#",
+      org: "#",
+      type: "#",
+      category: "#",
+      date: { id: "#", en: "#" },
+      image: "#",
+      credentialUrl: "#"
+    },
   ],
 
   uses: [
@@ -967,10 +823,10 @@ const DATA = {
           }
         },
         {
-          name: { id: "Laptop Axioo", en: "Axioo Laptop" },
+          name: { id: "Laptop IDEAPAD", en: "IDEAPAD Laptop" },
           desc: {
-            id: "Perangkat portable dengan spesifikasi AMD Ryzen 5-6600H, RAM 16GB yang memungkinkan saya untuk bekerja dimana saja",
-            en: "A portable rig with AMD Ryzen 5-6600H and 16GB RAM that lets me work from anywhere."
+            id: "Perangkat portable dengan spesifikasi Intel Core i3, RAM 8GB yang memungkinkan saya untuk bekerja dimana saja",
+            en: "A portable rig with Intel Core i3, 8GB RAM that lets me work from anywhere."
           }
         },
         {
@@ -999,13 +855,6 @@ const DATA = {
             en: "The code editor I use as my main tool for web development, with a very rich extension ecosystem."
           }
         },
-        {
-          name: { id: "Android Studio", en: "Android Studio" },
-          desc: {
-            id: "Lingkungan Pengembangan Terintegrasi (IDE) khusus untuk membangun aplikasi android dengan struktur kode yang solid",
-            en: "An IDE specifically for building Android apps with a solid code structure."
-          }
-        }
       ]
     },
     {
