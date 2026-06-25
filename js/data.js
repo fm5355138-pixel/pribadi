@@ -127,24 +127,6 @@ const DATA = {
     ],
     items: [
       {
-         slug: "aan-my-id",
-        github_raw: "aan-HTML/portofolio_main",
-        title: "aan.my.id",
-        desc: {
-          id: "Website personal dan portfolio yang dibangun dari nol dengan fokus pada desain yang modern dan performa cepat.",
-          en: "A personal website and portfolio built from scratch with a focus on modern design and fast performance."
-        },
-        image: "img/proyek/website-pribadi.webp",
-        tech: ["HTML", "CSS", "Javascript"],
-        type: "Web",
-        category: "Proyek Pribadi",
-        featured: true,
-        links: [
-          { label: "Live", url: "https://aan.my.id" },
-          { label: "GitHub", url: "https://github.com/aan-HTML/portofolio_main" }
-        ]
-      },
-      {
         slug: "desain-website-sekolah",
         github_raw: null,
         title: "Desain Website Sekolah",
@@ -158,7 +140,7 @@ const DATA = {
         category: "Freelance",
         featured: false,
         links: [
-          { label: "Live", url: "https://prototypemain.vercel.app" }
+          { label: "Live", url: "#" }
         ],
         detail: {
           id: `
