@@ -769,28 +769,6 @@ const DATA = {
       image: "#",
       credentialUrl: "#"
     },
-    {
-      id: "ach-1",
-      code: "#",
-      title: "#",
-      org: "#",
-      type: "#",
-      category: "#",
-      date: { id: "#", en: "#" },
-      image: "#",
-      credentialUrl: "#"
-    },
-        {
-      id: "ach-1",
-      code: "#",
-      title: "#",
-      org: "#",
-      type: "#",
-      category: "#",
-      date: { id: "#", en: "#" },
-      image: "#",
-      credentialUrl: "#"
-    },
   ],
 
   uses: [
