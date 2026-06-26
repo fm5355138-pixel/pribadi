@@ -1,7 +1,7 @@
 const DATA = {
   profile: {
     name: "Fadel Muhammad",
-    avatar: "img/me.jpg",
+    avatar: "img/me.webp",
     status: "Ayo Berkolaborasi",
     email: "fadelmuh185@email.com",
     github: "https://github.com/fm5355138-pixel",
@@ -84,14 +84,14 @@ const DATA = {
     signature: "Fadel Muhammad",
     careers: [
       {
-        role: { id: "Stan", en: "Stan" },
-        company: { id: "Digital Treasury Service Stand", en: "Digital Treasury Service Stand" },
-        period: { id: "#", en: "#" },
+        role: { id: "Taruna Bangsa", en: "Taruna Bangsa" },
+        company: { id: "Disiplin dalam Karakter, Unggul dalam Karya", en: "Disciplined in Character, Excel in Innovation" },
+        period: { id: "2024-2027", en: "2024 - 2027" },
         detail: {
-          id: "Sebagai staf pengembangan, membantu dalam merancang, membuat prototype, dan mengimplementasikan antarmuka aplikasi atau situs web yang intuitif, menarik, dan konsisten.",
-          en: "As an engineering staff, assisting in designing, prototyping, and implementing intuitive, engaging, and consistent interfaces for applications and websites."
+          id: "Mendedikasikan keahlian saya sebagai Taruna Bangsa untuk merancang, membangun prototipe, dan mengimplementasikan antarmuka aplikasi atau situs web yang estetis, intuitif, dan konsisten demi kemajuan digital institusi.",
+          en: "Dedicating my expertise as a Taruna Bangsa cadet to design, build prototypes, and implement aesthetic, intuitive, and consistent application or website interfaces for the institution's digital advancement."
         },
-        logo: "img/stan.webp"
+        logo: "img/tb.webp"
       }
     ],
     education: [
@@ -103,7 +103,7 @@ const DATA = {
       {
         name: { id: "SD Negeri Tp 7", en: "SD Negeri Tp 7" },
         meta: { id: "SD - 2013 - 2019 - Kota Bekasi, Jawa Barat", en: "Elementary School - 2013 - 2019 - Bekasi City, West Java" },
-        logo: "img/sdn.jpg"
+        logo: "img/sdn.webp"
       },
       {
         name: { id: "TK OdaPusa", en: "TK OdaPusa" },
@@ -125,33 +125,54 @@ const DATA = {
       { key: "Freelance", id: "Freelance", en: "Freelance" },
       { key: "Lomba", id: "Lomba", en: "Competition" }
     ],
-    items: [
-    
+    items: [    
     ]
   },
 
   achievements: [
     {
       id: "ach-1",
-      code: "#",
-      title: "#",
-      org: "#",
-      type: "#",
-      category: "#",
-      date: { id: "#", en: "#" },
-      image: "#",
-      credentialUrl: "#"
+      code: "07Z67Q39WPQR",
+      title: "Spec-Driven Development dengan Kiro (AI)",
+      org: "Dicoding Indonesia",
+      type: "Ai",
+      category: "Dasar",
+      date: { id: "Mei 20, 2026", en: "May 20, 2026" },
+      image: "img/sertifikat/belajardengankiro.webp",
+      credentialUrl: "https://www.dicoding.com/certificates/07Z67Q39WPQR"
     },
     {
-      id: "ach-1",
-      code: "#",
-      title: "#",
-      org: "#",
-      type: "#",
-      category: "#",
-      date: { id: "#", en: "#" },
-      image: "#",
-      credentialUrl: "#"
+      id: "ach-2",
+      code: "N9ZON090DXG5",
+      title: "Belajar Dasar Manajemen Proyek",
+      org: "Dicoding Indonesia",
+      type: "Manajemen",
+      category: "Dasar",
+      date: { id: "Mei 20, 2026", en: "May 20, 2026" },
+      image: "img/sertifikat/analisdasar.webp",
+      credentialUrl: "https://www.dicoding.com/certificates/N9ZON090DXG5"
+    },
+    {
+      id: "ach-3",
+      code: "1OP8R3EW1ZQK",
+      title: "Belajar Dasar Cloud Computing",
+      org: "Dicoding Indonesia",
+      type: "Cloud",
+      category: "Dasar",
+      date: { id: "Juni 27, 2026", en: "June 27, 2026" },
+      image: "img/sertifikat/awsdasar.webp",
+      credentialUrl: "https://www.dicoding.com/certificates/1OP8R3EW1ZQK"
+    },
+    {
+      id: "ach-4",
+      code: "",
+      title: "",
+      org: "",
+      type: "",
+      category: "",
+      date: { id: "", en: "" },
+      image: "img/sertifikat/.webp",
+      credentialUrl: ""
     },
   ],
 
