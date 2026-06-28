@@ -165,14 +165,14 @@ const DATA = {
     },
     {
       id: "ach-4",
-      code: "",
-      title: "",
-      org: "",
-      type: "",
-      category: "",
-      date: { id: "", en: "" },
+      code: "81P2OREOOZOY",
+      title: "Memulai Pemrograman dengan Python",
+      org: "Dicoding Indonesia",
+      type: "Ptython",
+      category: "Dasar",
+      date: { id: "Juni 29, 2026", en: "June 29, 2026" },
       image: "img/sertifikat/.webp",
-      credentialUrl: ""
+      credentialUrl: "https://www.dicoding.com/certificates/81P2OREOOZOY"
     },
   ],
 
