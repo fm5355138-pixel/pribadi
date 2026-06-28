@@ -171,7 +171,7 @@ const DATA = {
       type: "Ptython",
       category: "Dasar",
       date: { id: "Juni 29, 2026", en: "June 29, 2026" },
-      image: "img/sertifikat/ptyhon.webp",
+      image: "img/sertifikat/python.webp",
       credentialUrl: "https://www.dicoding.com/certificates/81P2OREOOZOY"
     },
   ],
